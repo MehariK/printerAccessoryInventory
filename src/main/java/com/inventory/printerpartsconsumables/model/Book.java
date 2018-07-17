@@ -1,4 +1,4 @@
-package np.com.mshrestha.bookstore.model;
+package com.inventory.printerpartsconsumables.model;
 
 import java.sql.Date;
 

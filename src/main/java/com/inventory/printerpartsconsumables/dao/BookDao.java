@@ -1,7 +1,9 @@
-package np.com.mshrestha.bookstore.dao;
+//package com.inventoy.bookstore.dao;
+package com.inventory.printerpartsconsumables.dao;
 
 import java.util.List;
-import np.com.mshrestha.bookstore.model.Book;
+//import com.inventory.bookstore.model.Book;
+import com.inventory.printerpartsconsumables.model.Book;
 
 public interface BookDao {
 

@@ -1,10 +1,10 @@
-package np.com.mshrestha.bookstore.service.impl;
+package com.inventory.printerpartsconsumables.service.impl;
 
 import java.util.List;
 
-import np.com.mshrestha.bookstore.dao.BookDao;
-import np.com.mshrestha.bookstore.model.Book;
-import np.com.mshrestha.bookstore.service.BookService;
+import com.inventory.printerpartsconsumables.dao.BookDao;
+import com.inventory.printerpartsconsumables.model.Book;
+import com.inventory.printerpartsconsumables.service.BookService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

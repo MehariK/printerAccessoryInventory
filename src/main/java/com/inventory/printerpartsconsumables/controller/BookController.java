@@ -1,9 +1,9 @@
-package np.com.mshrestha.bookstore.controller;
+package com.inventory.printerpartsconsumables.controller;
 
 import java.util.Map;
 
-import np.com.mshrestha.bookstore.model.Book;
-import np.com.mshrestha.bookstore.service.BookService;
+import com.inventory.printerpartsconsumables.model.Book;
+import com.inventory.printerpartsconsumables.service.BookService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

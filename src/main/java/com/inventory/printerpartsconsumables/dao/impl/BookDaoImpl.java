@@ -1,9 +1,9 @@
-package np.com.mshrestha.bookstore.dao.impl;
+package com.inventory.printerpartsconsumables.dao.impl;
 
 import java.util.List;
 
-import np.com.mshrestha.bookstore.dao.BookDao;
-import np.com.mshrestha.bookstore.model.Book;
+import com.inventory.printerpartsconsumables.dao.BookDao;
+import com.inventory.printerpartsconsumables.model.Book;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

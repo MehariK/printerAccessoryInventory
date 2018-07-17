@@ -1,8 +1,8 @@
-package np.com.mshrestha.bookstore.service;
+package com.inventory.printerpartsconsumables.service;
 
 import java.util.List;
 
-import np.com.mshrestha.bookstore.model.Book;
+import com.inventory.printerpartsconsumables.model.Book;
 
 public interface BookService {
 
