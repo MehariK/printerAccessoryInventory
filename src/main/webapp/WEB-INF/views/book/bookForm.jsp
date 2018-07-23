@@ -4,8 +4,7 @@
 
 <c:url var="actionUrl" value="save" />
 
-<form:form id="bookForm" commandName="book" method="post"
-	action="${actionUrl }" class="form-horizontal">
+<form:form id="bookForm" commandName="book" method="post" action="${actionUrl}" class="form-horizontal">
 
 	<div class="form-group">
 		<label for="name" class="col-xs-4 control-label">Name</label>

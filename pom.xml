@@ -12,7 +12,9 @@
 		<spring-version>5.0.6.RELEASE</spring-version>
 		<hibernate-version>5.2.17.Final</hibernate-version>
 		<mysql-version>8.0.11</mysql-version>
-		<apache-connection-pooling-version>1.4</apache-connection-pooling-version>
+		<apache-connection-dbcp-version>2.1.1</apache-connection-dbcp-version>
+		<apache-connection-pooling-version>2.4.2</apache-connection-pooling-version>
+		
 	</properties>
 	<dependencies>
 		<!-- Spring -->
@@ -49,16 +51,20 @@
 			<version>3.3.0.ga</version> </dependency> -->
 
 		<!-- Apache's Database Connection Pooling -->
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-dbcp2 -->
 		<dependency>
-			<groupId>commons-dbcp</groupId>
-			<artifactId>commons-dbcp</artifactId>
-			<version>${apache-connection-pooling-version}</version>
+		    <groupId>org.apache.commons</groupId>
+		    <artifactId>commons-dbcp2</artifactId>
+		    <version>${apache-connection-dbcp-version}</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-pool2 -->
 		<dependency>
-			<groupId>commons-pool</groupId>
-			<artifactId>commons-pool</artifactId>
-			<version>${apache-connection-pooling-version}</version>
+		    <groupId>org.apache.commons</groupId>
+		    <artifactId>commons-pool2</artifactId>
+		    <version>${apache-connection-pooling-version}</version>
 		</dependency>
+
 
 		<!-- MySQL -->
 		<dependency>
